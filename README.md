@@ -2370,12 +2370,12 @@ local CamShake = require(game.ReplicatedStorage.Util.CameraShaker)
 CamShake:Stop()
 
     HttpService = game:GetService("HttpService")
-    local i = "Sla Hub"
+    local i = "FLOP SCRIPT"
     local j = "-BloxFruit.json"
     local l = game.Players.LocalPlayer.Name .. j
     if Adel then
         HttpService = game:GetService("HttpService")
-        local i = "Sla Hub"
+        local i = "FLOP SCRIPT"
         local j = "-BloxFruit.json"
         local l = game.Players.LocalPlayer.Name .. j
     end
@@ -2482,7 +2482,7 @@ CamShake:Stop()
 
     function CheckAcientOneStatus()
         if not game.Players.LocalPlayer.Character:FindFirstChild("RaceTransformed") then
-            return "You have yet to achieve greatness"
+            return "Você ainda não alcançou a grandeza"
         end
         local v227 = nil
         local v228 = nil
@@ -2503,119 +2503,119 @@ CamShake:Stop()
             if v229 == 0 then
                 return "Ready For Trial"
             else
-                return "You have yet to achieve greatness"
+                return "Você ainda não alcançou a grandeza"
             end
         end
         return "Remaining " .. 10 - v228 .. " training sessions."
     end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Sla Hub", HidePremium = false, IntroText = "", SaveConfig = true, ConfigFolder = "Sla Hub"})
+local Window = OrionLib:MakeWindow({Name = "FLOP SCRIPT", HidePremium = false, IntroText = "", SaveConfig = true, ConfigFolder = "FLOP SCRIPT"})
 
 OrionLib:MakeNotification({
-	Name = "Sla Hub",
-	Content = "Choose Teams Bro?",
-	Image = "rbxassetid://119980140458596",
+	Name = "FLOP SCRIPT",
+	Content = "Escolha equipes mano?",
+	Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
 	Time = 7
 })
 
 OrionLib:MakeNotification({
-	Name = "Sla Hub",
-	Content = "Sla Hub",
-	Image = "rbxassetid://119980140458596",
+	Name = "FLOP SCRIPT",
+	Content = "FLOP SCRIPT",
+	Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
 	Time = 25
 })
 
 OrionLib:MakeNotification({
-    Name = "Sla Hub",
-    Content = "Please Wait loading script...,Do not enable any function",
-    Image = "rbxassetid://119980140458596",
+    Name = "FLOP SCRIPT",
+    Content = "Aguarde carregando o script..., não habilite nenhuma função",
+    Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     Time = 5
 })
 
 -------------Tab-----------------------
 
 local W = Window:MakeTab({
-    Name = "Welcome",
-    Icon = "rbxassetid://119980140458596",
+    Name = "Bem-vindo",
+    Icon = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     PremiumOnly = false
 })
 
 local M = Window:MakeTab({
-    Name = "General",
-    Icon = "rbxassetid://119980140458596",
+    Name = "Geral",
+    Icon = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     PremiumOnly = false
 })
 
 local ST = Window:MakeTab({
-    Name = "Setting",
-    Icon = "rbxassetid://119980140458596",
+    Name = "conf",
+    Icon = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     PremiumOnly = false
 })
 
 local IQ = Window:MakeTab({
-    Name = "Item & Quest",
-    Icon = "rbxassetid://119980140458596",
+    Name = "Item & missão",
+    Icon = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     PremiumOnly = false
 })
 
 local S = Window:MakeTab({
     Name = "Stats",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     PremiumOnly = false
 })
 
 local E = Window:MakeTab({
     Name = "ESP",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     PremiumOnly = false
 })
 
 local RA = Window:MakeTab({
     Name = "Raid",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     PremiumOnly = false
 })
 
 local LC = Window:MakeTab({
     Name = "Local Players",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     PremiumOnly = false
 })
 
 local Wld = Window:MakeTab({
     Name = "World Teleport",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     PremiumOnly = false
 })
 
 local SV = Window:MakeTab({
     Name = "Status Sever",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     PremiumOnly = false
 })
 
 local D = Window:MakeTab({
     Name = "Devil Fruit",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     PremiumOnly = false
 })
 
 local R = Window:MakeTab({
     Name = "Race V4",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     PremiumOnly = false
 })
 
 local SH = Window:MakeTab({
     Name = "Shop",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     PremiumOnly = false
 })
 
 local C = Window:MakeTab({
     Name = "Misc",
-    Icon = "rbxassetid://119980140458596",
+    Icon = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     PremiumOnly = false
 })
 
@@ -2624,7 +2624,7 @@ local Section = W:AddSection({
     Name = "Update"
 })
 
-W:AddLabel("[+] Sla Hub is HERE!")
+W:AddLabel("[+] FLOP SCRIPT is HERE!")
 W:AddLabel("[+] Best AutoFarm!")
 W:AddLabel("[+] Up and Growing")
 W:AddLabel("[+] Smooth")
@@ -2711,7 +2711,7 @@ local locallv = W:AddLabel("Level")
                 if game:GetService("Players").LocalPlayer.Character:FindFirstChild(game:GetService("Players").LocalPlayer.Data.DevilFruit.Value) or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild(game:GetService("Players").LocalPlayer.Data.DevilFruit.Value) then
                     localDevil:Set("Devil Fruit :".." "..game:GetService("Players").LocalPlayer.Data.DevilFruit.Value)
                 else
-                    localDevil:Set("Not Have Devil Fruit")
+                    localDevil:Set("Não Tem Devil Fruit")
                 end
             end)
         end
@@ -3491,7 +3491,7 @@ local Bone = M:AddLabel("Bone : ")
 spawn(function()
     while wait() do
         pcall(function()
-            Bone:Set("Bone You Have : "..(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Bones","Check")))
+            Bone:Set("osso que você tem : "..(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Bones","Check")))
         end)
     end
 end)
@@ -8320,7 +8320,7 @@ spawn(function()
                         end                    
                     end
                 else
-                    if _G.AutoEliteHunterHop and game:GetService("ReplicatedStorage").Remotes["CommF_"]:InvokeServer("EliteHunter") == "I don't have anything for you right now. Come back later." then
+                    if _G.AutoEliteHunterHop and game:GetService("ReplicatedStorage").Remotes["CommF_"]:InvokeServer("EliteHunter") == "Não tenho nada para você agora. Volte mais tarde.." then
                         hop()
                     else
                         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("EliteHunter")
@@ -8337,15 +8337,15 @@ pcall(function()
         if _G.AutoEliteHunter then
             if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == true then
                 OrionLib:MakeNotification({
-                    Name = "Sla Hub(Noitification)",
-                    Content = "[EN] : Please cancel the farrm level quest (if any)",
-                    Image = "rbxassetid://119980140458596",
+                    Name = "FLOP SCRIPT(Noitification)",
+                    Content = "[EN] : Você não precisa ir para o nível de fazenda (se houver)",
+                    Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
                     Time = 9
                 })
                 OrionLib:MakeNotification({
-                    Name = "Sla Hub(Noitification)",
-                    Content = "[VN] : Làm ơn hủy nhiệm vụ farrm level(nếu có)",
-                    Image = "rbxassetid://119980140458596",
+                    Name = "FLOP SCRIPT(Noitification)",
+                    Content = "[VN] : Làm ơn hủy nhiệm vụ farrm level(nếu c)",
+                    Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
                     Time = 9
                 })
             end
@@ -8512,7 +8512,7 @@ spawn(function()
             if _G.AutoObservation then
                 if game:GetService("Players").LocalPlayer.VisionRadius.Value >= 3000 then
                     OrionLib:MakeNotification({
-                        Name = "Sla Hub BOT",
+                        Name = "FLOP SCRIPT BOT",
                         Content = "!!You Are Max Point!!",
                         Image = "rbxassetid://14919714384",
                         Time = 5
@@ -8661,9 +8661,9 @@ spawn(function()
         if Mybeli <= 2500000 or MyFragment <= 5000 then
             wait(2.0)
             OrionLib:MakeNotification({
-                Name = "Sla Hub",
-                Content = "You not have beli or fragment!",
-                Image = "rbxassetid://119980140458596",
+                Name = "FLOP SCRIPT",
+                Content = "Você não tem beli ou fragmento!",
+                Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
                 Time = 5
             })
             end
@@ -8822,9 +8822,9 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "Sla Hub BOT",
-                            Content = "Not Have Superhuman",
-                            Image = "rbxassetid://14919714384",
+                            Name = "FLOP SCRIPT BOT",
+                            Content = "Nao tenho Superhuman",
+                            Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
                             Time = 5
                         })
                         
@@ -8835,9 +8835,9 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "Sla Hub BOT",
-                            Content = "Not Have Death Step",
-                            Image = "rbxassetid://14919714384",
+                            Name = "FLOP SCRIPT BOT",
+                            Content = "Não Tem Death Step",
+                            Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
                             Time = 5
                         })
                         
@@ -8848,9 +8848,9 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "Sla Hub BOT",
-                            Content = "Not Have SharkMan Karate",
-                            Image = "rbxassetid://14919714384",
+                            Name = "FLOP SCRIPT BOT",
+                            Content = "Nao tenho SharkMan Karate",
+                            Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
                             Time = 5
                         })
                         
@@ -8861,9 +8861,9 @@ spawn(function()
                         end
                     else
                         gOrionLib:MakeNotification({
-                            Name = "Sla Hub BOT",
-                            Content = "Not Have Electric Claw",
-                            Image = "rbxassetid://14919714384",
+                            Name = "FLOP SCRIPT BOT",
+                            Content = "Nao tenho Electric Claw",
+                            Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
                             Time = 5
                         })
                         
@@ -8872,9 +8872,9 @@ spawn(function()
                         if game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon").Level.Value >= 400 or game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon").Level.Value >= 400 then
                             if string.find(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyGodhuman",true), "Bring") then
                                 OrionLib:MakeNotification({
-                                    Name = "Sla Hub BOT",
-                                    Content = "Not Have Enough Material",
-                                    Image = "rbxassetid://14919714384",
+                                    Name = "FLOP SCRIPT BOT",
+                                    Content = "Nao tem Enough Material",
+                                    Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
                                     Time = 5
                                 })
                                 
@@ -8884,9 +8884,9 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "Sla Hub BOT",
-                            Content = "You Not Have Dragon Talon! ",
-                            Image = "rbxassetid://14919714384",
+                            Name = "FLOP SCRIPT BOT",
+                            Content = "Você nao tem Dragon Talon! ",
+                            Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
                             Time = 5
                         })
                         
@@ -10416,7 +10416,7 @@ local TushitaPos = CFrame.new(-10238.875976563, 389.7912902832, -9549.7939453125
                             end                    
                         end
                     else
-                        if _G.AutoArenaTrainerHop and game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("ArenaTrainer") == "I don't have anything for you right now. Come back later." then
+                        if _G.AutoArenaTrainerHop and game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("ArenaTrainer") == "Não tenho nada para você agora. Volte mais tarde." then
                             hop()
                         else
                             game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("ArenaTrainer")
@@ -11285,7 +11285,7 @@ spawn(function()
                 OrionLib:MakeNotification({
                     Name = "FLOP SCRIPT",
                     Content = "Desligue Hop Find Moon, por favor",
-                    Image = "https://i.postimg.cc/cHC24Qbj/JTL9q-IMj-Qp2-Jk1t-XWa6y-Bw.webp",
+                    Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
@@ -11293,7 +11293,7 @@ spawn(function()
                 OrionLib:MakeNotification({
                     Name = "FLOP SCRIPT",
                     Content = "esperando Server",
-                    Image = "https://i.postimg.cc/cHC24Qbj/JTL9q-IMj-Qp2-Jk1t-XWa6y-Bw.webp",
+                    Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
@@ -11301,7 +11301,7 @@ spawn(function()
                 OrionLib:MakeNotification({
                     Name = "FLOP SCRIP",
                     Content = "Esperando Server",
-                    Image = "https://i.postimg.cc/cHC24Qbj/JTL9q-IMj-Qp2-Jk1t-XWa6y-Bw.webp",
+                    Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
@@ -11322,7 +11322,7 @@ spawn(function()
 OrionLib:MakeNotification({
         Name = "FLOP SCRIPT",
         Content = "Carregamento do script concluído! Agora você pode ativar a função!",
-        Image = "https://i.postimg.cc/cHC24Qbj/JTL9q-IMj-Qp2-Jk1t-XWa6y-Bw.webp",
+        Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
         Time = 5
     })
 
@@ -11365,6 +11365,6 @@ OrionLib:Init()
 OrionLib:MakeNotification({
     Name = "FLOP SCRIPT",
     Content = "Carregando configuração concluída!!",
-    Image = "https://i.postimg.cc/cHC24Qbj/JTL9q-IMj-Qp2-Jk1t-XWa6y-Bw.webp",
+    Image = "https://i.postimg.cc/7h2xbvWp/Round-Photo-Dec042024-205626.png",
     Time = 5
 })
